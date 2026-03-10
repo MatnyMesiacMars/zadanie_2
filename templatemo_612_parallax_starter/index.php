@@ -45,6 +45,17 @@ https://templatemo.com/tm-612-parallax-starter
         <div class="parallax-overlay"></div>
         <div class="section-content">
             <h1 class="section-title hero-title">WELCOME TO OUR STUDIO</h1>
+            <?php
+$hour = date('H');
+
+if ($hour < 12) {
+    echo "<h3>Dobré ráno</h3>";
+            } elseif ($hour < 18) {
+            echo "<h3>Dobrý deň</h3>";
+            } else {
+            echo "<h3>Dobrý večer</h3>";
+            }
+            ?>
             <p class="section-subtitle caps">WE CREATE BEAUTIFUL DIGITAL EXPERIENCES</p>
             <a href="#about" class="btn-scroll">EXPLORE</a>
         </div>
