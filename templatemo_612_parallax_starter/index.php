@@ -49,11 +49,11 @@ https://templatemo.com/tm-612-parallax-starter
 $hour = date('H');
 
 if ($hour < 12) {
-    echo "<h3>Dobré ráno</h3>";
+    echo "<h1>Dobré ráno</h1>";
             } elseif ($hour < 18) {
-            echo "<h3>Dobrý deň</h3>";
+            echo "<h1>Dobrý deň</h1>";
             } else {
-            echo "<h3>Dobrý večer</h3>";
+            echo "<h1>Dobrý večer</h1>";
             }
             ?>
             <p class="section-subtitle caps">WE CREATE BEAUTIFUL DIGITAL EXPERIENCES</p>
